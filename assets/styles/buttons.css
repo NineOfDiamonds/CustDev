@@ -1,0 +1,17 @@
+.btn {
+	padding: 10px 25px;
+	border-radius: 50px;
+	border: none;
+	font-size: 17px;
+	color: var(--blue);
+	cursor: pointer;
+}
+
+.btn.-xl {
+	padding: 15px 35px;
+	background-color: var(--green);
+	color: var(--white);
+	font-size: 20px;
+	text-transform: uppercase;
+	box-shadow: 0 0 0 15px var(--green-clear);
+}

@@ -1,0 +1,25 @@
+body, h1, h2, h3, h4, h5, p, a, ul, ol {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+.card.-m {
+padding: 20px 54px;
+}
+
+.card.-l {
+padding: 64px 54px;
+}

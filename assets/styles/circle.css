@@ -1,0 +1,26 @@
+.circle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: var(--white-gradient-bg1);
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	text-align: center;
+	color: var(--blue);
+}
+
+.circle__text {
+	font-size: 17px;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+.circle__title {
+	font-size: 37px;
+}
+
+.circle__link {
+	color: var(--blue);
+
+}

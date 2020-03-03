@@ -1,0 +1,11 @@
+.container {
+	width: 1450px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+	.container {
+		width: 738px;
+	}
+}

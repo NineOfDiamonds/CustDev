@@ -1,0 +1,29 @@
+.hero {
+	background-image: url(../img/image.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1000px;
+}
+
+.hero__container {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-top: 60px;
+}
+
+.hero__article {
+	width: 50%;
+	color: var(--white);
+}
+
+.hero__subtitle {
+	margin-bottom: 45px;
+	font-size: 28px;
+	font-weight: 100;
+}
+
+.hero__title {
+	font-size:  60px;
+	margin-bottom: 40px;
+}
