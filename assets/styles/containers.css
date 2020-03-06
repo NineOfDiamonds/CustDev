@@ -4,8 +4,26 @@
 	margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1475px) {
+	.container {
+		width: 1124px;
+	}
+}
+
+@media screen and (max-width: 1250px) {
+	.container {
+		width: 1024px;
+	}
+}	
+
+@media screen and (max-width: 1070px) {
 	.container {
 		width: 738px;
+	}
+}
+
+@media screen and (max-width: 835px) {
+	.container {
+		width: calc(100% - 30px);
 	}
 }
