@@ -10,6 +10,11 @@
 	color: var(--blue);
 }
 
+.circle.-article {
+	position: absolute;
+	bottom: 100px;
+}
+
 .circle__text {
 	font-size: 17px;
 	font-weight: 300;
@@ -23,4 +28,16 @@
 .circle__link {
 	color: var(--blue);
 
+}
+
+@media screen and (max-width: 567px) {
+	.circle.-article {
+		bottom: 70px;
+	}
+}
+
+@media screen and (max-width: 439px) {
+	.circle.-article {
+		bottom: 0;
+	}
 }

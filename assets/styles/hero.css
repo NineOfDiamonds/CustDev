@@ -2,7 +2,8 @@
 	background-image: url(../img/image.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 1000px;
+	height: 1200px;
+	padding-bottom: 100px;
 }
 
 .hero__container {
@@ -47,5 +48,11 @@
 	.hero__article {
 		width: calc(100% - 15px);
 		margin-bottom: 30px;
+	}
+}	
+
+@media screen and (max-width: 422px) {
+	.hero__title {
+		font-size: 38px;
 	}
 }	

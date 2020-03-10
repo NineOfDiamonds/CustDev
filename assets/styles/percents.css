@@ -1,0 +1,52 @@
+.percents .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.percents__cards {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	min-height: 500px;
+	width: 2400px;
+}
+
+.card.-m {
+	width: 330px;
+	margin-right: 50px;
+	margin-bottom: 60px;
+}
+
+.card__desc {
+	color: var(--grey);
+}
+
+@media screen and (max-width: 1534px) {
+	.percents .container {
+		flex-direction: column;
+	}
+
+	.percents__cards {
+		width: 1100px;
+	}
+
+
+} 
+
+@media screen and (max-width: 818px) {
+	.percents__cards {
+		flex-direction: column;
+		width: 100%;
+		align-items:center;
+
+	}
+
+	.card.-m {
+		margin-right: 0;
+		margin-bottom: 30px;
+		width: calc(100% - 30px)
+
+	}
+}	
+

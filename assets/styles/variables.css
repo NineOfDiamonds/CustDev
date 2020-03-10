@@ -4,4 +4,5 @@
 	--green:#64E2CD;
 	--green-clear: rgba(100, 226, 205, 0.5);
 	--white-gradient-bg1: radial-gradient(68.31% 68.31% at 50% 50%, #F9FBFF 0%, #CADEF9 100%), #FFFFFF;
+	--grey: #565656;
 }
