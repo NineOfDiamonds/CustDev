@@ -34,3 +34,11 @@ a {
 	margin-bottom: 10px;
 	font-size: 23px;
 }
+
+.-blue {
+	color: var(--blue);
+}
+
+.-up {
+	text-transform: uppercase;
+}

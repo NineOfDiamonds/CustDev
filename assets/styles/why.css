@@ -1,0 +1,27 @@
+.why {
+	background-image: url(../img/why.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 50px;
+}
+
+.title.-why {
+	text-align: center;
+	margin-right: 0;
+	margin-bottom: 90px;
+}
+
+.articles {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.article {
+	height: 200px;
+	width: 300px;
+}
+
+.article__title {
+	mb
+}

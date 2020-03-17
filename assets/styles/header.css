@@ -20,10 +20,6 @@
 	transition: .7s;
 }
 
-.header__link.-up {
-	text-transform: uppercase;
-}
-
 .header__link.-blue {
 	color: var(--blue);
 }
