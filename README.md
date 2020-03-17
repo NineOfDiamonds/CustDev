@@ -10,3 +10,4 @@
 ```
 Ссылка на GHPages:
 ```
+ https://nineofdiamonds.github.io/CustDev/
